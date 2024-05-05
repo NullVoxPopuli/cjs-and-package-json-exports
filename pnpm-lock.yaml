@@ -1,0 +1,17 @@
+lockfileVersion: '6.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  cjs-library: {}
+
+  consumer:
+    dependencies:
+      cjs-library:
+        specifier: workspace:^
+        version: link:../cjs-library
